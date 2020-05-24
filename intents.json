@@ -1,0 +1,59 @@
+{"intents": [
+        {"group": "hello",
+         "patterns": ["Hello","I need help", "I need help"],
+         "responses": ["Hi, how can I help you?", "How can I help you today?"],
+         "context_set": ""    
+        },
+        {"group": "CSC492 prerequisite",
+         "patterns": ["What are the prerequisites for CSC492"],
+         "responses": ["The prerequisites are CSC301, CSC321, and CSC481"],
+         "context_set": ""
+        },
+        {"group": "CSC121 prerequisite",
+         "patterns": ["What are the prerequisites for CSC121","CSC121"],
+         "responses": ["The prerequisites for CSC121 are CSC115 and MAT153 or consent from an instructor "],
+         "context_set": ""
+        },
+        {"group": "CSC123 prerequisite",
+         "patterns": ["What are the prerequisites for CSC123","CSC123"],
+         "responses": ["The prerequisite for CSC123 is CSC121 "],
+         "context_set": ""
+        },
+        {"group": "CSC221 prerequisite",
+         "patterns": ["What are the prerequisites for CSC221","CSC221"],
+         "responses": ["The prerequisite for CSC221 is CSC121 "],
+         "context_set": ""
+        },
+        {"group": "Electives",
+         "patterns": ["how many electives do you need for CSC","electives for CSC"],
+         "responses": ["You need one lower division and at least 2 upper division electives"],
+         "context_set": ""
+        },
+        {"group": "lower division",
+         "patterns": ["what are the lower division requirements for a computer science degree","lower division requirements for csc"],
+         "responses": ["MAT191, MAT193, MAT271, MAT281, PHY30, PHY132,CSC121, CSC123, CSC221, and 1 CSC elective"],
+         "context_set": ""
+        },
+        {"group": "Upper Division",
+         "patterns": ["what are the upper division requirements for a computer science degree","upper division requirements for csc"],
+         "responses": ["CSC311, CSC321, CSC331, CSC341, CSC301, CSC401, CSC481, CSC492, MAT321, MAT361, and at least 2 CSC electives"],
+         "context_set": ""
+        },
+        {"group": "CSReq",
+         "patterns": ["Requirements for computer Science"],
+         "responses": ["The requirements for a bachelor's degree in Computer Science can be found at \n\n http://csudh.smartcatalogiq.com/2019-2020/Catalog/Copy-of-Computer-Science/Bachelor-of-Science-in-Computer-Science "],
+         "context_set": ""
+        },
+        {"group": "Appointments",
+         "patterns": ["Can I make an appointment for advisement", "appoinment advisement"],
+         "responses": ["You may fill out a form to obtain an appointment by visiting \n\nhttps://docs.google.com/forms/d/e/1FAIpQLSdxDBweRXEnppap6-X_9jt6-9a138Dv_VUpgK0G3LhPmzLQbg/viewform"],
+         "context_set": ""
+        },
+        {"group": "Probation",
+         "patterns": ["How many classes can I fail", "what is the minimum gpa required"],
+         "responses": ["The minimum gpa required to continue classes is 2.0, if you'd like more info you can visit\n\n https://www.csudh.edu/uac/academic-probation-disqualification/"],
+         "context_set": ""
+        }
+    ]
+}
+    
